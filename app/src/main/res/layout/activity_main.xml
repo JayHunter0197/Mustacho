@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_marginTop="45dp"
+             android:layout_height="300dp"
+             android:src="@drawable/pan"
+             android:id="@+id/imageMustacho"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:fontFamily="monospace"
+             android:gravity="end"
+             android:text="Mustacho"
+             android:textSize="50sp"
+             android:layout_centerHorizontal="true"
+             />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Contact info"
+             android:fontFamily="monospace"
+             android:layout_below="@+id/imageMustacho"
+             android:gravity="center"
+             android:id="@+id/contactInfo"/>
+
+         <ImageView
+             android:id="@+id/locationImage"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/contactInfo"
+             android:layout_marginLeft="100dp"
+             android:layout_marginTop="20dp"
+             android:src="@drawable/ic_location" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Paseo San Lorenzo 109"
+             android:layout_below="@+id/contactInfo"
+             android:layout_marginLeft="130dp"
+             android:layout_marginTop="20dp"/>
+
+         <ImageView
+             android:id="@+id/timeImage"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/contactInfo"
+             android:layout_marginLeft="100dp"
+             android:layout_marginTop="60dp"
+             android:src="@drawable/ic_time_" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="08:00- 22:00"
+             android:layout_below="@+id/contactInfo"
+             android:layout_marginLeft="130dp"
+             android:layout_marginTop="60dp"/>
+
+         <ImageView
+             android:id="@+id/mailImage"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/contactInfo"
+             android:layout_marginLeft="100dp"
+             android:layout_marginTop="100dp"
+             android:src="@drawable/ic_email" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="mustacho@delicious.com"
+             android:layout_below="@+id/contactInfo"
+             android:layout_marginLeft="130dp"
+             android:layout_marginTop="100dp"/>
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="About Us"
+             android:fontFamily="monospace"
+             android:layout_below="@+id/imageMustacho"
+             android:gravity="center"
+             android:id="@+id/about"
+             android:layout_marginTop="170dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/contactInfo"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="175dp"
+             android:text="Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+             android:textAlignment="viewStart" />
+
+
+     </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
